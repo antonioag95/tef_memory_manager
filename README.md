@@ -48,7 +48,7 @@ Download the latest executable file (`.exe` for Windows) from the [Releases](htt
 
 ## Usage
 
-1.  Launch the application (`radio_manager_gui.py` or the downloaded executable).
+1.  Launch the application (`tef_memory_manager.py` or the downloaded executable).
 2.  Select the correct **Serial Port** where your radio is connected from the dropdown list. Refresh (`↺`) if needed.
 3.  Select the appropriate **Baud Rate** (default is usually 115200).
 4.  Click **Connect**. The status bar should indicate a successful connection.
