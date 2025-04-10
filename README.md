@@ -1,4 +1,4 @@
-# TEF Radio Memory Manager GUI
+# TEF Radio Memory Manager
 
 A Python-based graphical user interface (GUI) application for managing memory channels on TEF ESP32-based radios via a serial connection. This tool utilizes a backend library to interact with radios implementing the specific memory channel protocol.
 
