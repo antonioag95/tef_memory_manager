@@ -628,7 +628,7 @@ class WriteChannelDialog(tk.Toplevel):
 
             # --- Process PI and PS Text (already length-validated) ---
             pi = self.pi_var.get().strip().upper()  # Standardize PI to uppercase
-            ps = self.ps_var.get().strip()
+            ps = self.ps_var.get()
             # Redundant length check, but safe
             if len(pi) > 4: pi = pi[:4]
             if len(ps) > 8: ps = ps[:8]
@@ -2393,7 +2393,7 @@ class RadioApp(tk.Tk):
                         bw_str = row[2].strip()
                         ms_str = row[3].strip()
                         pi = row[4].strip().upper() # Standardize PI to uppercase
-                        ps = row[5].strip()
+                        ps = row[5]
 
                         # Convert numeric fields, catching errors
                         ch = int(ch_str)
