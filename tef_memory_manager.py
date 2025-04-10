@@ -81,7 +81,7 @@ except Exception as e:
 DEFAULT_BAUD = 115200
 BAUD_RATES = [9600, 19200, 38400, 57600, 115200, 230400, 460800, 921600]
 APP_TITLE = "TEF Radio Memory Manager"
-APP_VERSION = "1.0.4"
+APP_VERSION = "1.0.5"
 APP_AUTHOR = "antonioag95"
 APP_DATE = "10-04-25"
 APP_ICON_FILENAME = "tef_icon.png"
